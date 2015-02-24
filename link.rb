@@ -175,8 +175,7 @@ end
 
 link = List.new
 link.add_node("Andrew")
-link.add_node("Tony")
-link.add_node("Andrew")
-link.add_at(3,"eric")
+
+link.delete_at(1)
 puts link.print_nodes
 
